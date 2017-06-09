@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
+ * 读取配置文件中的数据库信息、创建数据库连接、
  * Created by zy_git on 2017/6/7.
  */
 public class ConnectionFactory {
@@ -52,7 +53,7 @@ public class ConnectionFactory {
             conn = DriverManager.getConnection(dburl,user,password);
         } catch (SQLException e) {
             e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return conn;

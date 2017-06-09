@@ -3,4 +3,36 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <!--注册一个Servlet-->
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.quicker.javawebdemo.servlet.HelloServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.quicker.javawebdemo.servlet.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>CheckUserServlet</servlet-name>
+        <servlet-class>com.quicker.javawebdemo.servlet.CheckUserServlet</servlet-class>
+    </servlet>
+    
+    <!--用于映射Servlet对外访问的路径-->
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/Hello</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CheckUserServlet</servlet-name>
+        <url-pattern>/CheckUserServlet</url-pattern>
+    </servlet-mapping>
+    
 </web-app>

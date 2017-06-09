@@ -1,5 +1,7 @@
 package com.quicker.javawebdemo.test;
 
+import com.quicker.javawebdemo.dao.UserDao;
+
 import java.sql.*;
 
 /**
@@ -82,10 +84,12 @@ public class JDBC_test {
         }
     }
 
-    public static void insertTest(Connection conn) throws SQLException{
+    public static void insertTest(Connection conn) throws SQLException {
         String sql = "INSERT INTO tbl_user(id,name) VALUES(1,'dd')";
-            Statement st = conn.createStatement();
-            int cout = st.executeUpdate(sql);
-            System.out.print("插入了"+cout+"条数据");
+        Statement st = conn.createStatement();
+        int cout = st.executeUpdate(sql);
+        System.out.print("插入了" + cout + "条数据");
+
+
     }
 }

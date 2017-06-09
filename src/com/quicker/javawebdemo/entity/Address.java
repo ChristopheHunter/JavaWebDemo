@@ -3,7 +3,7 @@ package com.quicker.javawebdemo.entity;
 /**
  * Created by zy_git on 2017/6/7.
  */
-public class Address extends IdEntity{
+public class Address extends IdEntity {
 
     private String city;
     private String country;
