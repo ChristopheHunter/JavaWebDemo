@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            border: 1px solid red;
+            width: 500px;
+            height: 350px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+    <script>
+        var index = 2;
+        function changeImg() {
+            if (index > 3) {
+                index = 1;
+            }
+            document.getElementById("img1").src = "../../img/" + index++ + ".jpg";
+        }
+    </script>
+</head>
+<body>
+<div>
+    <img src="../../img/1.jpg" width="100%" id="img1">
+    <input type="button" value="下一张" onclick="changeImg()">
+</div>
+</body>
+</html>
