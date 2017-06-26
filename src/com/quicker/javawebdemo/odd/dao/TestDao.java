@@ -1,6 +1,6 @@
-package com.quicker.javawebdemo.dao;
+package com.quicker.javawebdemo.odd.dao;
 
-import com.quicker.javawebdemo.entity.Test;
+import com.quicker.javawebdemo.odd.entity.Test;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,4 +1,4 @@
-package com.quicker.javawebdemo.servlet;
+package com.quicker.javawebdemo.odd.servlet;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;

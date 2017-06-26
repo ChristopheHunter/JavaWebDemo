@@ -1,6 +1,6 @@
-package com.quicker.javawebdemo.dao;
+package com.quicker.javawebdemo.odd.dao;
 
-import com.quicker.javawebdemo.entity.User;
+import com.quicker.javawebdemo.odd.entity.User;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

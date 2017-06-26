@@ -1,6 +1,6 @@
-package com.quicker.javawebdemo.test;
+package com.quicker.javawebdemo.odd.test;
 
-import com.quicker.javawebdemo.utils.ConnectionFactory;
+import com.quicker.javawebdemo.odd.utils.ConnectionFactory;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,6 +1,4 @@
-package com.quicker.javawebdemo.entity;
-
-import sun.rmi.runtime.Log;
+package com.quicker.javawebdemo.odd.entity;
 
 /**
  * Created by zy_git on 2017/6/7.

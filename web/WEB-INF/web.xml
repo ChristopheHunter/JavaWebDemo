@@ -6,17 +6,17 @@
     <!--注册一个Servlet-->
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.quicker.javawebdemo.servlet.HelloServlet</servlet-class>
+        <servlet-class>com.quicker.javawebdemo.odd.servlet.HelloServlet</servlet-class>
     </servlet>
     
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.quicker.javawebdemo.servlet.LoginServlet</servlet-class>
+        <servlet-class>com.quicker.javawebdemo.odd.servlet.LoginServlet</servlet-class>
     </servlet>
     
     <servlet>
         <servlet-name>CheckUserServlet</servlet-name>
-        <servlet-class>com.quicker.javawebdemo.servlet.CheckUserServlet</servlet-class>
+        <servlet-class>com.quicker.javawebdemo.odd.servlet.CheckUserServlet</servlet-class>
     </servlet>
     
     <!--用于映射Servlet对外访问的路径-->

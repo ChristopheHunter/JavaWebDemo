@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+           $("#btn").mouseover(function () {
+               $("#img").show()
+           }).mouseout(function () {
+               $("#img").hide();
+           });
+        });
+    </script>
 </head>
 <body>
-$END$
+    <input type="button" id="btn" value="哈哈" style="text-align: center"><br/>
+    <img id="img" src="../../../img/ad.jpg" style="display: none">
 </body>
 </html>

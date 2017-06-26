@@ -1,9 +1,9 @@
-package com.quicker.javawebdemo.test;
+package com.quicker.javawebdemo.odd.test;
 
-import com.quicker.javawebdemo.dao.TestDao;
-import com.quicker.javawebdemo.dao.impl.TestImpl;
-import com.quicker.javawebdemo.entity.Test;
-import com.quicker.javawebdemo.utils.ConnectionFactory;
+import com.quicker.javawebdemo.odd.dao.TestDao;
+import com.quicker.javawebdemo.odd.dao.impl.TestImpl;
+import com.quicker.javawebdemo.odd.entity.Test;
+import com.quicker.javawebdemo.odd.utils.ConnectionFactory;
 
 import java.sql.Connection;
 import java.sql.SQLException;

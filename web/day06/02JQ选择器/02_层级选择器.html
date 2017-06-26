@@ -3,8 +3,32 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>层级选择器</title>
-		
-		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+		<script>
+			$(function () {
+                $("#btn1").click(function () {
+                    $("body div").css("background-color","blue");
+                });
+            });
+            $(function () {
+                $("#btn2").click(function () {
+//                    $("body > div,body > span").css("background-color","blue");
+                    $("body > *").css("background-color","blue");
+                });
+            });
+            $(function () {
+                $("#btn3").click(function () {
+                    $("#two + div").css("background-color","blue");
+                });
+            })
+            $(function () {
+                $("#btn4").click(function () {
+                    $("#one ~ *").css("background-color","blue");
+                });
+            });
+		</script>
+
 	</head>
 	<body>
 		<input type="button" id="btn1" value="选择body中的所有的div元素"/>

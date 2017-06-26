@@ -1,6 +1,4 @@
-package com.quicker.javawebdemo.test;
-
-import com.quicker.javawebdemo.dao.UserDao;
+package com.quicker.javawebdemo.odd.test;
 
 import java.sql.*;
 

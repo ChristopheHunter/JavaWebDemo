@@ -1,7 +1,7 @@
-package com.quicker.javawebdemo.servlet;
+package com.quicker.javawebdemo.odd.servlet;
 
-import com.quicker.javawebdemo.entity.User;
-import com.quicker.javawebdemo.service.CheckUserService;
+import com.quicker.javawebdemo.odd.entity.User;
+import com.quicker.javawebdemo.odd.service.CheckUserService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

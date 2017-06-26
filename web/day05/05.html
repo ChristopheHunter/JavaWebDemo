@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script>
+        
+        window.onload = function () {
+            document.getElementById("btn").onclick = function () {
+                var ulEle = document.getElementById("ul1");
+                var textNote = document.createTextNode("深圳");   //深圳
+                var liEle = document.createElement("li")         //<li></li>
+                liEle.appendChild(textNote);                     //<li>深圳</li>
+                ulEle.appendChild(liEle);
+            }
+        }
+    </script>
 </head>
 <body>
-$END$
+<input type="button" value="添加新城市" id="btn">
+<ul id="ul1">
+    <li>北京</li>
+    <li>上海</li>
+    <li>广州</li>
+</ul>
 </body>
 </html>

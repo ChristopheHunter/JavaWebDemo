@@ -3,37 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
     <script>
-        window.onload = function () {
-            document.getElementById("checkAll").onclick = function () {
-                var checkAllEle = document.getElementById("checkAll");
-                if (checkAllEle.checked == true) {
-                    var checkBoxs = document.getElementsByName("checkBox");
-                    for (var i = 0; i < checkBoxs.length; i++) {
-                        checkBoxs[i].checked = true;
-                    }
-                }else {
-                    var checkBoxs = document.getElementsByName("checkBox");
-                    for (var i = 0; i < checkBoxs.length; i++) {
-                        checkBoxs[i].checked = false;
-                    }
-                }
-            }
-        }
-//        function checkAll() {
-//            var checkAllEle = document.getElementById("checkAll");
-//            if (checkAllEle.checked == true) {
-//                var checkBoxs = document.getElementsByName("checkBox");
-//                for (var i = 0; i < checkBoxs.length; i++) {
-//                    checkBoxs[i].checked = true;
-//                }
-//            }else {
-//                var checkBoxs = document.getElementsByName("checkBox");
-//                for (var i = 0; i < checkBoxs.length; i++) {
-//                    checkBoxs[i].checked = false;
-//                }
-//            }
-//        }
+        $(function () {
+            $("#checkAll").click(function () {
+//                $("tbody input").attr("checked",this.checked);
+                $("tbody input").prop("checked",this.checked);
+            });
+        });
     </script>
 </head>
 <body>

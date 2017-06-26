@@ -1,9 +1,9 @@
-package com.quicker.javawebdemo.service;
+package com.quicker.javawebdemo.odd.service;
 
-import com.quicker.javawebdemo.dao.UserDao;
-import com.quicker.javawebdemo.dao.impl.UserDaoImpl;
-import com.quicker.javawebdemo.entity.User;
-import com.quicker.javawebdemo.utils.ConnectionFactory;
+import com.quicker.javawebdemo.odd.dao.UserDao;
+import com.quicker.javawebdemo.odd.dao.impl.UserDaoImpl;
+import com.quicker.javawebdemo.odd.entity.User;
+import com.quicker.javawebdemo.odd.utils.ConnectionFactory;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

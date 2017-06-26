@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            $("#checkAll").click(function () {
+               var isChecked = this.checked;
+               $("input[name='hobby']").each(function () {
+                   this.checked = isChecked;
+               })
+            });
+        });
+    </script>
 </head>
 <body>
-$END$
+请选择你的爱好<br/>
+
+<input type="checkbox" id="checkAll"><br/>
+<input type="checkbox" name="hobby" value="摄影">摄影<br/>
+<input type="checkbox" name="hobby" value="电影">电影<br/>
+<input type="checkbox" name="hobby" value="编程">编程<br/>
+<input type="checkbox" name="hobby" value="爬山">爬山<br/>
 </body>
 </html>

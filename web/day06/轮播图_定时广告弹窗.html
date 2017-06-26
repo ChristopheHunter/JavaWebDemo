@@ -103,8 +103,26 @@
         }
     </style>
 
-    <script src="轮播图_定时广告弹窗.js">
+    <!--<script src="轮播图_定时广告弹窗.js">-->
+    <!--</script>-->
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            showFlag = setInterval("showAd()",1000);
+        })
 
+        function showAd() {
+//            $("#ad_big").show(1000);
+            $("#ad_big").slideDown(1000);
+            clearInterval(showFlag);
+            hideFlag = setInterval("hideAd()",2000);
+        }
+
+        function hideAd() {
+//            $("#ad_big").hide(1000);
+            $("#ad_big").slideUp(1000)
+            clearInterval(hideFlag);
+        }
     </script>
 </head>
 <body onload="init()">

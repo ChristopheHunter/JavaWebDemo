@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <style>
+        div{
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                $("#img").toggle();
+            })
+        });
+    </script>
 </head>
 <body>
-$END$
+    <div>
+        <img src="../../../img/ad.jpg" id="img"><br/>
+        <input type="button" value="显示/隐藏" id="btn"><br/>
+    </div>
 </body>
 </html>

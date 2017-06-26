@@ -1,7 +1,7 @@
-package com.quicker.javawebdemo.dao.impl;
+package com.quicker.javawebdemo.odd.dao.impl;
 
-import com.quicker.javawebdemo.dao.TestDao;
-import com.quicker.javawebdemo.entity.Test;
+import com.quicker.javawebdemo.odd.dao.TestDao;
+import com.quicker.javawebdemo.odd.entity.Test;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

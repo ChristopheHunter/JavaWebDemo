@@ -1,4 +1,4 @@
-package com.quicker.javawebdemo.test;
+package com.quicker.javawebdemo.odd.test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
