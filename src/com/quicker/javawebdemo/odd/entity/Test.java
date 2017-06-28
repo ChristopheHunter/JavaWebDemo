@@ -25,7 +25,7 @@ public class Test extends IdEntity{
 
     @Override
     public String toString() {
-        return "Test{" +
+        return "MyTest{" +
                 "email='" + email + '\'' +
                 ", id=" + id +
                 '}';
